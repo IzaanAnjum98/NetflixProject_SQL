@@ -9,7 +9,7 @@
 ## Dataset
 Dataset file for the analysis
 
-Link: ()
+Link: (https://github.com/IzaanAnjum98/NetflixProject_SQL/blob/main/netflix_titles.csv)
 ## Business Problems with Solutions
 
 #### Q#1: Count the number of Movies VS TV shows
