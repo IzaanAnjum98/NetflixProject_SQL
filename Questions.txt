@@ -1,0 +1,10 @@
+Q#1: Count the number of Movies vs TV Shows
+Q#2: Find the most common rating for movies and TV shows
+Q#3: List all movies Released in a specific year (e.g.2000)
+Q#4: Find the top 5  countries with the most content on Netflix
+Q#5: Identify the longest movie
+Q#6: Find All the movie/tv shows which was directed by "Rajiv Chilaka"
+Q#7: List all the TV Shows with more than 5 season
+Q#8: Count the number of items in each genre
+Q#9: Find each year and the average number of content release in india on Netflix
+Q#10 List all the movies that are documentries
