@@ -8,3 +8,10 @@
 
 ## Business Problems with Solutions
 
+### Q#1: Count the number of Movies vs TV Shows
+
+SELECT TYPE,
+       COUNT(TYPE) AS TOTAL_CONTENT
+FROM NETFLIX
+GROUP BY TYPE
+ORDER BY TOTAL_CONTENT DESC
