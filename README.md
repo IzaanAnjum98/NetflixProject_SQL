@@ -1,1 +1,1 @@
-# Netflix Movies and TV Series Using SQL Server
+# Netflix Data Analysis Using SQL Server
