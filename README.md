@@ -112,3 +112,8 @@ FROM
 WHERE 
   listed_in like '%Documentaries%'
 ```
+
+
+## Conclusion
+
+-These findings offer actionable recommendations for improving Netflix's content strategy, such as tailoring regional content, producing more of the most-watched genres, and maintaining a balanced mix of movies and TV shows to meet viewer demands. Overall, this data-driven approach enhances decision-making and helps strengthen Netflix’s market position globally.
