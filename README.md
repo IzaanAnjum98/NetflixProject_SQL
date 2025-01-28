@@ -6,6 +6,10 @@
 - Determine the most popular genres and countries producing Netflix content to understand regional preferences and focus areas.
 - Analyze the distribution of content types (movies vs. TV shows) and their growth trends over time.
 
+## Dataset
+Dataset file for the analysis
+
+Link: ()
 ## Business Problems with Solutions
 
 #### Q#1: Count the number of Movies VS TV shows
