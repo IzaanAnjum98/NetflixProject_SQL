@@ -8,7 +8,7 @@
 
 ## Business Problems with Solutions
 
-#### Q#1: Count the number of Movies vs TV Shows
+#### Q#1: Count the number of Movies VS TV shows
 ```sql
 SELECT TYPE,
        COUNT(TYPE) AS TOTAL_CONTENT
@@ -17,7 +17,7 @@ GROUP BY TYPE
 ORDER BY TOTAL_CONTENT DESC
 ```
 
-### Q#2: Find the most common rating for movies and TV shows
+#### Q#2: Find the most common rating for movies and TV shows
 ```sql
 SELECT TYPE,
        rating
@@ -33,13 +33,13 @@ FROM
 WHERE Ranking = 1
 ```
 
-### Q#3: List all movies Released in a specific year (e.g.2000)
+#### Q#3: List all movies Released in a specific year (e.g.2000)
 ```sql
 Select * from Netflix
 where release_year= '2000'
 ```
 
-### Q#4: Find the top 5  countries with the most content on Netflix
+#### Q#4: Find the top 5  countries with the most content on Netflix
 ```sql
 SELECT 
   TOP 5 country, 
@@ -54,7 +54,7 @@ ORDER BY
   No_Of_Content DESC
 ```
 
-### Q#5: Identify the longest movie
+#### Q#5: Identify the longest movie
 ```sql
 SELECT *
 FROM Netflix
@@ -64,20 +64,20 @@ WHERE TYPE = 'Movie'
      FROM Netflix)
 ```
 
-### Q#6: Find All the movie/tv shows which was directed by "Rajiv Chilaka"
+#### Q#6: Find All the movie/tv shows which was directed by "Rajiv Chilaka"
 ```sql
 SELECT * FROM Netflix
 where director= 'Rajiv Chilaka'
 ```
 
-### Q#7: List all the TV Shows with more than 5 season
+#### Q#7: List all the TV Shows with more than 5 season
 ```sql
 SELECT * FROM Netflix
 WHERE Type='TV Show' and duration >= '5 Seasons'
 ```
 
 
-### Q#8: Count the number of items in each genre
+#### Q#8: Count the number of items in each genre
 ```sql
 SELECT value AS genre,
        COUNT(*) AS genre_count
@@ -87,7 +87,7 @@ ORDER BY genre_count DESC;
 
 ```
 
-### Q#9: Find each year and the average number of content release in USA on netflix
+#### Q#9: Find each year and the average number of content release in USA on netflix
 ```sql
 SELECT 
   YEAR(date_added) as Year_of, 
@@ -103,7 +103,7 @@ order by
   no_of_Movies desc
 ```
 
-### Q#10 List all the movies that are documentries
+#### Q#10 List all the movies that are documentries
 ```sql
 SELECT 
   * 
